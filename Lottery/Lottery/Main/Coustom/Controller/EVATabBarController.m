@@ -42,15 +42,6 @@
         [tabBar addTabBarButtonWithImageName:imageName selImageName:selImageName];
     }];
     
-    UINavigationBar *bar = [UINavigationBar appearance];
-    
-    UIImage *navImage = nil;
-    if ([[UIDevice currentDevice].systemVersion floatValue] >= 7.0) {
-        navImage = [UIImage imageNamed:@"NavBar64"];
-    }else{
-        navImage = [UIImage imageNamed:@"NavBar"];
-    }
-    [bar setBackgroundImage:navImage forBarMetrics:UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning {
