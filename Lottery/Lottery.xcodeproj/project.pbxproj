@@ -19,6 +19,13 @@
 		14EA8BA41BF08FA200DD72F8 /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA31BF08FA200DD72F8 /* HallViewController.m */; };
 		14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA61BF0930C00DD72F8 /* EVANavigationController.m */; };
 		14EA8BAA1BF09E7800DD72F8 /* EVATitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA91BF09E7800DD72F8 /* EVATitleButton.m */; };
+		14EA8BC51BF0D55E00DD72F8 /* EVALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BC41BF0D55E00DD72F8 /* EVALoginViewController.m */; };
+		14EA8BCC1BF0E92200DD72F8 /* EVASettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BCB1BF0E92200DD72F8 /* EVASettingViewController.m */; };
+		14EA8BCF1BF0EFFA00DD72F8 /* EVASettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BCE1BF0EFFA00DD72F8 /* EVASettingItem.m */; };
+		14EA8BD21BF0F5BA00DD72F8 /* EVAGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BD11BF0F5BA00DD72F8 /* EVAGroup.m */; };
+		14EA8BD51BF0FA0800DD72F8 /* EVASettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BD41BF0FA0800DD72F8 /* EVASettingTableViewCell.m */; };
+		14EA8BD81BF0FE5400DD72F8 /* ArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BD71BF0FE5400DD72F8 /* ArrowItem.m */; };
+		14EA8BDB1BF0FEC500DD72F8 /* SwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BDA1BF0FEC500DD72F8 /* SwitchItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +51,20 @@
 		14EA8BA61BF0930C00DD72F8 /* EVANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVANavigationController.m; sourceTree = "<group>"; };
 		14EA8BA81BF09E7800DD72F8 /* EVATitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATitleButton.h; sourceTree = "<group>"; };
 		14EA8BA91BF09E7800DD72F8 /* EVATitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATitleButton.m; sourceTree = "<group>"; };
+		14EA8BC31BF0D55E00DD72F8 /* EVALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVALoginViewController.h; sourceTree = "<group>"; };
+		14EA8BC41BF0D55E00DD72F8 /* EVALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVALoginViewController.m; sourceTree = "<group>"; };
+		14EA8BCA1BF0E92200DD72F8 /* EVASettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVASettingViewController.h; sourceTree = "<group>"; };
+		14EA8BCB1BF0E92200DD72F8 /* EVASettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVASettingViewController.m; sourceTree = "<group>"; };
+		14EA8BCD1BF0EFFA00DD72F8 /* EVASettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVASettingItem.h; sourceTree = "<group>"; };
+		14EA8BCE1BF0EFFA00DD72F8 /* EVASettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVASettingItem.m; sourceTree = "<group>"; };
+		14EA8BD01BF0F5BA00DD72F8 /* EVAGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAGroup.h; sourceTree = "<group>"; };
+		14EA8BD11BF0F5BA00DD72F8 /* EVAGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAGroup.m; sourceTree = "<group>"; };
+		14EA8BD31BF0FA0800DD72F8 /* EVASettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVASettingTableViewCell.h; sourceTree = "<group>"; };
+		14EA8BD41BF0FA0800DD72F8 /* EVASettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVASettingTableViewCell.m; sourceTree = "<group>"; };
+		14EA8BD61BF0FE5400DD72F8 /* ArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowItem.h; sourceTree = "<group>"; };
+		14EA8BD71BF0FE5400DD72F8 /* ArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowItem.m; sourceTree = "<group>"; };
+		14EA8BD91BF0FEC500DD72F8 /* SwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchItem.h; sourceTree = "<group>"; };
+		14EA8BDA1BF0FEC500DD72F8 /* SwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +128,7 @@
 		140EB6A81BEF925400E61A81 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				14EA8BC61BF0E8C800DD72F8 /* Setting */,
 				140EB6AD1BEF925400E61A81 /* Hall */,
 				140EB6A91BEF925400E61A81 /* Buy */,
 				140EB6B11BEF925400E61A81 /* Lucky */,
@@ -257,6 +279,8 @@
 		140EB6BA1BEF925400E61A81 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				14EA8BC31BF0D55E00DD72F8 /* EVALoginViewController.h */,
+				14EA8BC41BF0D55E00DD72F8 /* EVALoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -333,6 +357,49 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		14EA8BC61BF0E8C800DD72F8 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				14EA8BC71BF0E8C800DD72F8 /* Controller */,
+				14EA8BC81BF0E8C800DD72F8 /* Model */,
+				14EA8BC91BF0E8C800DD72F8 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		14EA8BC71BF0E8C800DD72F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14EA8BCA1BF0E92200DD72F8 /* EVASettingViewController.h */,
+				14EA8BCB1BF0E92200DD72F8 /* EVASettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14EA8BC81BF0E8C800DD72F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14EA8BCD1BF0EFFA00DD72F8 /* EVASettingItem.h */,
+				14EA8BCE1BF0EFFA00DD72F8 /* EVASettingItem.m */,
+				14EA8BD01BF0F5BA00DD72F8 /* EVAGroup.h */,
+				14EA8BD11BF0F5BA00DD72F8 /* EVAGroup.m */,
+				14EA8BD61BF0FE5400DD72F8 /* ArrowItem.h */,
+				14EA8BD71BF0FE5400DD72F8 /* ArrowItem.m */,
+				14EA8BD91BF0FEC500DD72F8 /* SwitchItem.h */,
+				14EA8BDA1BF0FEC500DD72F8 /* SwitchItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14EA8BC91BF0E8C800DD72F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14EA8BD31BF0FA0800DD72F8 /* EVASettingTableViewCell.h */,
+				14EA8BD41BF0FA0800DD72F8 /* EVASettingTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -404,14 +471,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EA8BD21BF0F5BA00DD72F8 /* EVAGroup.m in Sources */,
 				140EB6D11BEF9AB200E61A81 /* EVATabBarController.m in Sources */,
 				140EB6CA1BEF997B00E61A81 /* ViewController.m in Sources */,
 				14EA8BA11BF076D700DD72F8 /* EVATabBarButton.m in Sources */,
 				14EA8BA41BF08FA200DD72F8 /* HallViewController.m in Sources */,
+				14EA8BD81BF0FE5400DD72F8 /* ArrowItem.m in Sources */,
+				14EA8BCF1BF0EFFA00DD72F8 /* EVASettingItem.m in Sources */,
 				14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */,
+				14EA8BDB1BF0FEC500DD72F8 /* SwitchItem.m in Sources */,
 				140EB6D41BEF9AC900E61A81 /* EVATabBar.m in Sources */,
 				140EB6C91BEF997B00E61A81 /* AppDelegate.m in Sources */,
+				14EA8BD51BF0FA0800DD72F8 /* EVASettingTableViewCell.m in Sources */,
+				14EA8BC51BF0D55E00DD72F8 /* EVALoginViewController.m in Sources */,
 				140EB6921BEF87C600E61A81 /* main.m in Sources */,
+				14EA8BCC1BF0E92200DD72F8 /* EVASettingViewController.m in Sources */,
 				14EA8BAA1BF09E7800DD72F8 /* EVATitleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

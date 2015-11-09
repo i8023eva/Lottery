@@ -20,14 +20,14 @@
                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="购彩大厅" id="dOp-7b-bJ8">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="uhc-BE-Nhh">
+                        <barButtonItem key="rightBarButtonItem" style="done" id="uhc-BE-Nhh">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JPr-Cx-X77">
                                 <rect key="frame" x="531" y="11" width="49" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="资讯" image="zixunBarFlat">
-                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="dMz-No-bvo" kind="show" id="GaF-fJ-h0h"/>
@@ -102,7 +102,7 @@
         <!--我的彩票-->
         <scene sceneID="tEh-bs-eLa">
             <objects>
-                <viewController id="Z2X-sJ-6G2" sceneMemberID="viewController">
+                <viewController id="Z2X-sJ-6G2" customClass="EVALoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IHH-dA-abo"/>
                         <viewControllerLayoutGuide type="bottom" id="TOh-K5-s2s"/>
@@ -119,13 +119,12 @@
                                     <constraint firstAttribute="width" constant="300" id="rPy-O5-ngi"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAh-4a-rKy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAh-4a-rKy">
                                 <rect key="frame" x="30" y="264" width="540" height="34"/>
                                 <animations/>
-                                <state key="normal" title="登录" backgroundImage="RedButton">
+                                <state key="normal" title="登录">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="highlighted" backgroundImage="RedButtonPressed"/>
                             </button>
                         </subviews>
                         <animations/>
@@ -139,7 +138,16 @@
                             <constraint firstAttribute="trailing" secondItem="EAh-4a-rKy" secondAttribute="trailing" constant="30" id="zAb-FA-bMl"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="我的彩票" id="b7z-rJ-u1H"/>
+                    <navigationItem key="navigationItem" title="我的彩票" id="b7z-rJ-u1H">
+                        <barButtonItem key="rightBarButtonItem" title="设置" id="EdE-5r-md4">
+                            <connections>
+                                <action selector="setting:" destination="Z2X-sJ-6G2" id="Bhs-Kb-209"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="loginButton" destination="EAh-4a-rKy" id="Mvl-Zc-0CA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uw1-Tt-EXC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -302,8 +310,6 @@
     <resources>
         <image name="LoginScreen" width="150" height="70"/>
         <image name="NavInfoFlat" width="22" height="22"/>
-        <image name="RedButton" width="61" height="34"/>
-        <image name="RedButtonPressed" width="61" height="34"/>
         <image name="YellowDownArrow" width="16" height="16"/>
         <image name="zixunBarFlat" width="13" height="11"/>
     </resources>
