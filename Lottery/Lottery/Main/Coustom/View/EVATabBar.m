@@ -17,10 +17,24 @@
 @implementation EVATabBar
 
 
+- (void)addTabBarButtonWithImageName:(NSString *)name selImageName:(NSString *)selName {
+        EVATabBarButton *btn = [EVATabBarButton buttonWithType:UIButtonTypeCustom];
+
+        // 设置按钮的图片
+        [btn setBackgroundImage:[UIImage imageNamed:name] forState:UIControlStateNormal];
+        
+        [btn setBackgroundImage:[UIImage imageNamed:selName] forState:UIControlStateSelected];
+        
+        // 监听按钮的点击
+        [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchDown];
+        
+        [self addSubview:btn];
+}
+
 -(instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        [self setupSubView];
+        
     }
     return self;
 }
@@ -87,9 +101,16 @@
     for (int i = 0; i < self.subviews.count; i++) {
         UIButton *btn = self.subviews[i];
         
+        btn.tag = i;
+        
         btnX = i * btnW;
         
         btn.frame = CGRectMake(btnX, btnY, btnW, btnH);
+        
+        // 默认选中第一个按钮
+        if (i == 0) {
+            [self btnClick:btn];
+        }
     }
 }
 

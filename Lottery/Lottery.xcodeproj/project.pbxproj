@@ -16,6 +16,8 @@
 		140EB6D11BEF9AB200E61A81 /* EVATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140EB6D01BEF9AB200E61A81 /* EVATabBarController.m */; };
 		140EB6D41BEF9AC900E61A81 /* EVATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 140EB6D31BEF9AC900E61A81 /* EVATabBar.m */; };
 		14EA8BA11BF076D700DD72F8 /* EVATabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA01BF076D700DD72F8 /* EVATabBarButton.m */; };
+		14EA8BA41BF08FA200DD72F8 /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA31BF08FA200DD72F8 /* HallViewController.m */; };
+		14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA61BF0930C00DD72F8 /* EVANavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		140EB6D31BEF9AC900E61A81 /* EVATabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATabBar.m; sourceTree = "<group>"; };
 		14EA8B9F1BF076D700DD72F8 /* EVATabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATabBarButton.h; sourceTree = "<group>"; };
 		14EA8BA01BF076D700DD72F8 /* EVATabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATabBarButton.m; sourceTree = "<group>"; };
+		14EA8BA21BF08FA200DD72F8 /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
+		14EA8BA31BF08FA200DD72F8 /* HallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallViewController.m; sourceTree = "<group>"; };
+		14EA8BA51BF0930C00DD72F8 /* EVANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVANavigationController.h; sourceTree = "<group>"; };
+		14EA8BA61BF0930C00DD72F8 /* EVANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVANavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,8 @@
 		140EB6AE1BEF925400E61A81 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				14EA8BA21BF08FA200DD72F8 /* HallViewController.h */,
+				14EA8BA31BF08FA200DD72F8 /* HallViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -296,6 +304,8 @@
 			children = (
 				140EB6CF1BEF9AB200E61A81 /* EVATabBarController.h */,
 				140EB6D01BEF9AB200E61A81 /* EVATabBarController.m */,
+				14EA8BA51BF0930C00DD72F8 /* EVANavigationController.h */,
+				14EA8BA61BF0930C00DD72F8 /* EVANavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -392,6 +402,8 @@
 				140EB6D11BEF9AB200E61A81 /* EVATabBarController.m in Sources */,
 				140EB6CA1BEF997B00E61A81 /* ViewController.m in Sources */,
 				14EA8BA11BF076D700DD72F8 /* EVATabBarButton.m in Sources */,
+				14EA8BA41BF08FA200DD72F8 /* HallViewController.m in Sources */,
+				14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */,
 				140EB6D41BEF9AC900E61A81 /* EVATabBar.m in Sources */,
 				140EB6C91BEF997B00E61A81 /* AppDelegate.m in Sources */,
 				140EB6921BEF87C600E61A81 /* main.m in Sources */,
