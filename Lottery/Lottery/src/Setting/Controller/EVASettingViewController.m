@@ -25,24 +25,25 @@
         
         // 0组
         EVASettingItem *pushNotice = [ArrowItem itemWithIcon:@"MorePush" title:@"推送和提醒"];
-
         EVASettingItem *yaoyiyao = [SwitchItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
-        
+        EVASettingItem *sound = [SwitchItem itemWithIcon:@"sound_Effect" title:@"声音效果"];
         
         EVAGroup *group0 = [[EVAGroup alloc] init];
-        group0.items = @[pushNotice,yaoyiyao];
+        group0.items = @[pushNotice, yaoyiyao, sound];
         group0.header = @"asdas";
         group0.footer = @"asdasd";
         
         // 1组
         EVASettingItem *newVersion = [ArrowItem itemWithIcon:@"MoreUpdate" title:@"检查新版本"];
         EVASettingItem *help = [ArrowItem itemWithIcon:@"MoreHelp" title:@"帮助"];
-        
-        
+        EVASettingItem *MoreShare = [ArrowItem itemWithIcon:@"MoreShare" title:@"分享"];
+        EVASettingItem *MoreMessage = [ArrowItem itemWithIcon:@"MoreMessage" title:@"查看消息"];
+        EVASettingItem *MoreNetease = [ArrowItem itemWithIcon:@"MoreNetease" title:@"产品推荐"];
+        EVASettingItem *MoreAbout = [ArrowItem itemWithIcon:@"MoreAbout" title:@"关于"];
         
         EVAGroup *group1 = [[EVAGroup alloc] init];
         group1.header = @"帮助";
-        group1.items = @[newVersion,help];
+        group1.items = @[newVersion,help,MoreShare,MoreMessage,MoreNetease,MoreAbout];
         
         [_sourceArray addObject:group0];
         [_sourceArray addObject:group1];

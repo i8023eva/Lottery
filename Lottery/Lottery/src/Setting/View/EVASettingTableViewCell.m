@@ -13,9 +13,18 @@
 
 @interface EVASettingTableViewCell ()
 @property (nonatomic, strong) UISwitch *sw;
+@property (nonatomic, strong) UIImageView *imgView;
 @end
 
 @implementation EVASettingTableViewCell
+
+- (UIImageView *)imgView
+{
+    if (_imgView == nil) {
+        _imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"CellArrow"]];
+    }
+    return _imgView;
+}
 
 -(UISwitch *)sw {
     if (_sw == nil) {
@@ -31,9 +40,14 @@
     self.textLabel.text = item.title;
     
     if ([_item isMemberOfClass:[ArrowItem class]]) {
-        self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        self.accessoryView = self.imgView;
+        self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }else if ([_item isMemberOfClass:[SwitchItem class]]) {
         self.accessoryView = self.sw;
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+    }else {
+        self.accessoryView = nil;
+        self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }
 }
 

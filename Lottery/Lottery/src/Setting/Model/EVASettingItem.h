@@ -22,6 +22,11 @@ typedef enum : NSUInteger {
 /** 弃用 */
 @property (nonatomic, assign) EVASettingItemType type;
 
+/**
+ *  添加一个 block
+ */
+
+
 + (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title;
 
 @end
