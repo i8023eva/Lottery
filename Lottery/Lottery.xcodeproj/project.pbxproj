@@ -15,6 +15,16 @@
 		140EB6CA1BEF997B00E61A81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140EB6C81BEF997B00E61A81 /* ViewController.m */; };
 		140EB6D11BEF9AB200E61A81 /* EVATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140EB6D01BEF9AB200E61A81 /* EVATabBarController.m */; };
 		140EB6D41BEF9AC900E61A81 /* EVATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 140EB6D31BEF9AC900E61A81 /* EVATabBar.m */; };
+		14822AB61BF2E15200EEEDF8 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AB21BF2E15200EEEDF8 /* MBProgressHUD+MJ.m */; };
+		14822AB71BF2E15200EEEDF8 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14822AB31BF2E15200EEEDF8 /* MBProgressHUD.bundle */; };
+		14822AB81BF2E15200EEEDF8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AB51BF2E15200EEEDF8 /* MBProgressHUD.m */; };
+		14822ABC1BF2E27F00EEEDF8 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822ABB1BF2E27F00EEEDF8 /* ProductViewController.m */; };
+		14822AC01BF2E2D500EEEDF8 /* EVAProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822ABF1BF2E2D500EEEDF8 /* EVAProduct.m */; };
+		14822AC51BF2E34B00EEEDF8 /* EVAProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AC31BF2E34B00EEEDF8 /* EVAProductCell.m */; };
+		14822AC61BF2E34B00EEEDF8 /* EVAProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14822AC41BF2E34B00EEEDF8 /* EVAProductCell.xib */; };
+		14822ACB1BF2E5A100EEEDF8 /* cywt.json in Resources */ = {isa = PBXBuildFile; fileRef = 14822AC81BF2E5A100EEEDF8 /* cywt.json */; };
+		14822ACC1BF2E5A100EEEDF8 /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = 14822AC91BF2E5A100EEEDF8 /* help.json */; };
+		14822ACD1BF2E5A100EEEDF8 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 14822ACA1BF2E5A100EEEDF8 /* products.json */; };
 		14EA8BA11BF076D700DD72F8 /* EVATabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA01BF076D700DD72F8 /* EVATabBarButton.m */; };
 		14EA8BA41BF08FA200DD72F8 /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA31BF08FA200DD72F8 /* HallViewController.m */; };
 		14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA61BF0930C00DD72F8 /* EVANavigationController.m */; };
@@ -43,6 +53,21 @@
 		140EB6D01BEF9AB200E61A81 /* EVATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATabBarController.m; sourceTree = "<group>"; };
 		140EB6D21BEF9AC900E61A81 /* EVATabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATabBar.h; sourceTree = "<group>"; };
 		140EB6D31BEF9AC900E61A81 /* EVATabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATabBar.m; sourceTree = "<group>"; };
+		14822AB11BF2E15200EEEDF8 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		14822AB21BF2E15200EEEDF8 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		14822AB31BF2E15200EEEDF8 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		14822AB41BF2E15200EEEDF8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		14822AB51BF2E15200EEEDF8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		14822ABA1BF2E27F00EEEDF8 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		14822ABB1BF2E27F00EEEDF8 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		14822ABE1BF2E2D500EEEDF8 /* EVAProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAProduct.h; sourceTree = "<group>"; };
+		14822ABF1BF2E2D500EEEDF8 /* EVAProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAProduct.m; sourceTree = "<group>"; };
+		14822AC21BF2E34B00EEEDF8 /* EVAProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAProductCell.h; sourceTree = "<group>"; };
+		14822AC31BF2E34B00EEEDF8 /* EVAProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAProductCell.m; sourceTree = "<group>"; };
+		14822AC41BF2E34B00EEEDF8 /* EVAProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EVAProductCell.xib; sourceTree = "<group>"; };
+		14822AC81BF2E5A100EEEDF8 /* cywt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cywt.json; sourceTree = "<group>"; };
+		14822AC91BF2E5A100EEEDF8 /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
+		14822ACA1BF2E5A100EEEDF8 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		14EA8B9F1BF076D700DD72F8 /* EVATabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATabBarButton.h; sourceTree = "<group>"; };
 		14EA8BA01BF076D700DD72F8 /* EVATabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATabBarButton.m; sourceTree = "<group>"; };
 		14EA8BA21BF08FA200DD72F8 /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
@@ -83,6 +108,7 @@
 			children = (
 				140EB68F1BEF87C600E61A81 /* Lottery */,
 				140EB68E1BEF87C600E61A81 /* Products */,
+				F4BC9FE072FA4BC9F46DC4EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +147,7 @@
 		140EB6A71BEF925400E61A81 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				14822AB01BF2E15200EEEDF8 /* MBProgressHUD */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -357,9 +384,61 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		14822AB01BF2E15200EEEDF8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				14822AB11BF2E15200EEEDF8 /* MBProgressHUD+MJ.h */,
+				14822AB21BF2E15200EEEDF8 /* MBProgressHUD+MJ.m */,
+				14822AB31BF2E15200EEEDF8 /* MBProgressHUD.bundle */,
+				14822AB41BF2E15200EEEDF8 /* MBProgressHUD.h */,
+				14822AB51BF2E15200EEEDF8 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		14822AB91BF2E25C00EEEDF8 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				14822ABA1BF2E27F00EEEDF8 /* ProductViewController.h */,
+				14822ABB1BF2E27F00EEEDF8 /* ProductViewController.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		14822ABD1BF2E2AF00EEEDF8 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				14822ABE1BF2E2D500EEEDF8 /* EVAProduct.h */,
+				14822ABF1BF2E2D500EEEDF8 /* EVAProduct.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		14822AC11BF2E32300EEEDF8 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				14822AC21BF2E34B00EEEDF8 /* EVAProductCell.h */,
+				14822AC31BF2E34B00EEEDF8 /* EVAProductCell.m */,
+				14822AC41BF2E34B00EEEDF8 /* EVAProductCell.xib */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		14822AC71BF2E5A100EEEDF8 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				14822AC81BF2E5A100EEEDF8 /* cywt.json */,
+				14822AC91BF2E5A100EEEDF8 /* help.json */,
+				14822ACA1BF2E5A100EEEDF8 /* products.json */,
+			);
+			name = JSON;
+			path = Data;
+			sourceTree = "<group>";
+		};
 		14EA8BC61BF0E8C800DD72F8 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				14822AC71BF2E5A100EEEDF8 /* JSON */,
 				14EA8BC71BF0E8C800DD72F8 /* Controller */,
 				14EA8BC81BF0E8C800DD72F8 /* Model */,
 				14EA8BC91BF0E8C800DD72F8 /* View */,
@@ -370,6 +449,7 @@
 		14EA8BC71BF0E8C800DD72F8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				14822AB91BF2E25C00EEEDF8 /* Product */,
 				14EA8BCA1BF0E92200DD72F8 /* EVASettingViewController.h */,
 				14EA8BCB1BF0E92200DD72F8 /* EVASettingViewController.m */,
 			);
@@ -379,6 +459,7 @@
 		14EA8BC81BF0E8C800DD72F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				14822ABD1BF2E2AF00EEEDF8 /* Product */,
 				14EA8BCD1BF0EFFA00DD72F8 /* EVASettingItem.h */,
 				14EA8BCE1BF0EFFA00DD72F8 /* EVASettingItem.m */,
 				14EA8BD01BF0F5BA00DD72F8 /* EVAGroup.h */,
@@ -394,10 +475,18 @@
 		14EA8BC91BF0E8C800DD72F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				14822AC11BF2E32300EEEDF8 /* Product */,
 				14EA8BD31BF0FA0800DD72F8 /* EVASettingTableViewCell.h */,
 				14EA8BD41BF0FA0800DD72F8 /* EVASettingTableViewCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F4BC9FE072FA4BC9F46DC4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,9 +547,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14822ACB1BF2E5A100EEEDF8 /* cywt.json in Resources */,
+				14822ACD1BF2E5A100EEEDF8 /* products.json in Resources */,
+				14822AC61BF2E34B00EEEDF8 /* EVAProductCell.xib in Resources */,
 				140EB6A01BEF87C600E61A81 /* LaunchScreen.storyboard in Resources */,
+				14822AB71BF2E15200EEEDF8 /* MBProgressHUD.bundle in Resources */,
 				140EB69D1BEF87C600E61A81 /* Assets.xcassets in Resources */,
 				140EB69B1BEF87C600E61A81 /* Main.storyboard in Resources */,
+				14822ACC1BF2E5A100EEEDF8 /* help.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,15 +569,20 @@
 				140EB6D11BEF9AB200E61A81 /* EVATabBarController.m in Sources */,
 				140EB6CA1BEF997B00E61A81 /* ViewController.m in Sources */,
 				14EA8BA11BF076D700DD72F8 /* EVATabBarButton.m in Sources */,
+				14822AC01BF2E2D500EEEDF8 /* EVAProduct.m in Sources */,
 				14EA8BA41BF08FA200DD72F8 /* HallViewController.m in Sources */,
 				14EA8BD81BF0FE5400DD72F8 /* ArrowItem.m in Sources */,
+				14822AC51BF2E34B00EEEDF8 /* EVAProductCell.m in Sources */,
 				14EA8BCF1BF0EFFA00DD72F8 /* EVASettingItem.m in Sources */,
 				14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */,
+				14822AB61BF2E15200EEEDF8 /* MBProgressHUD+MJ.m in Sources */,
 				14EA8BDB1BF0FEC500DD72F8 /* SwitchItem.m in Sources */,
 				140EB6D41BEF9AC900E61A81 /* EVATabBar.m in Sources */,
 				140EB6C91BEF997B00E61A81 /* AppDelegate.m in Sources */,
 				14EA8BD51BF0FA0800DD72F8 /* EVASettingTableViewCell.m in Sources */,
+				14822AB81BF2E15200EEEDF8 /* MBProgressHUD.m in Sources */,
 				14EA8BC51BF0D55E00DD72F8 /* EVALoginViewController.m in Sources */,
+				14822ABC1BF2E27F00EEEDF8 /* ProductViewController.m in Sources */,
 				140EB6921BEF87C600E61A81 /* main.m in Sources */,
 				14EA8BCC1BF0E92200DD72F8 /* EVASettingViewController.m in Sources */,
 				14EA8BAA1BF09E7800DD72F8 /* EVATitleButton.m in Sources */,

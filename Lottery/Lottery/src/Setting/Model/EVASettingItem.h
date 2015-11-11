@@ -14,6 +14,8 @@ typedef enum : NSUInteger {
     kEVASettingItemSwitch,
 } EVASettingItemType;
 
+typedef void(^EVASettingItemTypeBlock)();
+
 @interface EVASettingItem : NSObject
 
 @property (nonatomic, copy) NSString *title;
@@ -25,7 +27,7 @@ typedef enum : NSUInteger {
 /**
  *  添加一个 block
  */
-
+@property (nonatomic, copy) EVASettingItemTypeBlock block;
 
 + (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title;
 

@@ -9,5 +9,10 @@
 #import "ArrowItem.h"
 
 @implementation ArrowItem
-
++ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destVcClass:(Class)destVcClass {
+    ArrowItem *item = [super itemWithIcon:icon title:title];
+    
+    item.destVcClass = destVcClass;;
+    return item;
+}
 @end
