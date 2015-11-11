@@ -30,7 +30,6 @@
     UIBarButtonItem *cancle = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStylePlain target:self action:@selector(cancle)];
     self.navigationItem.leftBarButtonItem = cancle;
     
-    
     UIWebView *webView = (UIWebView *)self.view;
     
     // 加载资源包里面的Html

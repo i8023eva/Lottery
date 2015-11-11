@@ -1,0 +1,60 @@
+//
+//  AboutViewController.m
+//  Lottery
+//
+//  Created by lyh on 15/11/11.
+//  Copyright © 2015年 lyh. All rights reserved.
+//
+
+#import "AboutViewController.h"
+#import "EVAGroup.h"
+#import "EVASettingItem.h"
+#import "ArrowItem.h"
+#import "AboutHeaderView.h"
+
+@interface AboutViewController ()
+
+@end
+
+@implementation AboutViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    // 0组
+    [self addGroup0];
+    
+    self.tableView.tableHeaderView = [AboutHeaderView headerView];
+}
+
+- (void)addGroup0
+{
+    // 0组
+    ArrowItem *score = [ArrowItem itemWithIcon:nil title:@"评分支持" destVcClass:nil];
+    
+    
+    EVASettingItem *tel = [ArrowItem itemWithIcon:nil title:@"客服电话"];
+    tel.subTitle = @"020-83568090";
+    
+    EVAGroup *group0 = [[EVAGroup alloc] init];
+    group0.items = @[score,tel];
+    
+    [self.sourceArray addObject:group0];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

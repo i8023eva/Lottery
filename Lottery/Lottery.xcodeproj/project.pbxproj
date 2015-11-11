@@ -47,6 +47,10 @@
 		143A307E1BF3474900DEC134 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30611BF3474900DEC134 /* x3d_howto.html */; };
 		143A307F1BF3474900DEC134 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30621BF3474900DEC134 /* y11_howto.html */; };
 		143A30801BF3474900DEC134 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30631BF3474900DEC134 /* znzh.html */; };
+		143A30841BF35D3B00DEC134 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A30831BF35D3B00DEC134 /* ShareViewController.m */; };
+		143A30881BF363B300DEC134 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A30871BF363B300DEC134 /* AboutViewController.m */; };
+		143A308C1BF3644C00DEC134 /* AboutHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A308B1BF3644C00DEC134 /* AboutHeaderView.m */; };
+		143A308E1BF3645E00DEC134 /* AboutHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143A308D1BF3645E00DEC134 /* AboutHeaderView.xib */; };
 		14822AB61BF2E15200EEEDF8 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AB21BF2E15200EEEDF8 /* MBProgressHUD+MJ.m */; };
 		14822AB71BF2E15200EEEDF8 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14822AB31BF2E15200EEEDF8 /* MBProgressHUD.bundle */; };
 		14822AB81BF2E15200EEEDF8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AB51BF2E15200EEEDF8 /* MBProgressHUD.m */; };
@@ -125,6 +129,13 @@
 		143A30611BF3474900DEC134 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
 		143A30621BF3474900DEC134 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
 		143A30631BF3474900DEC134 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
+		143A30821BF35D3B00DEC134 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		143A30831BF35D3B00DEC134 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		143A30861BF363B300DEC134 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		143A30871BF363B300DEC134 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		143A308A1BF3644C00DEC134 /* AboutHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutHeaderView.h; sourceTree = "<group>"; };
+		143A308B1BF3644C00DEC134 /* AboutHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutHeaderView.m; sourceTree = "<group>"; };
+		143A308D1BF3645E00DEC134 /* AboutHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutHeaderView.xib; sourceTree = "<group>"; };
 		14822AB11BF2E15200EEEDF8 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		14822AB21BF2E15200EEEDF8 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		14822AB31BF2E15200EEEDF8 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -524,6 +535,34 @@
 			path = Html;
 			sourceTree = "<group>";
 		};
+		143A30811BF35D2700DEC134 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				143A30821BF35D3B00DEC134 /* ShareViewController.h */,
+				143A30831BF35D3B00DEC134 /* ShareViewController.m */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		143A30851BF363A900DEC134 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				143A30861BF363B300DEC134 /* AboutViewController.h */,
+				143A30871BF363B300DEC134 /* AboutViewController.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		143A30891BF3641F00DEC134 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				143A308A1BF3644C00DEC134 /* AboutHeaderView.h */,
+				143A308B1BF3644C00DEC134 /* AboutHeaderView.m */,
+				143A308D1BF3645E00DEC134 /* AboutHeaderView.xib */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 		14822AB01BF2E15200EEEDF8 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -601,6 +640,8 @@
 		14EA8BC71BF0E8C800DD72F8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				143A30851BF363A900DEC134 /* About */,
+				143A30811BF35D2700DEC134 /* Share */,
 				143A303C1BF3369500DEC134 /* Help */,
 				14822AD11BF2F25A00EEEDF8 /* Push */,
 				14822AB91BF2E25C00EEEDF8 /* Product */,
@@ -634,6 +675,7 @@
 		14EA8BC91BF0E8C800DD72F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				143A30891BF3641F00DEC134 /* About */,
 				14822AC11BF2E32300EEEDF8 /* Product */,
 				14EA8BD31BF0FA0800DD72F8 /* EVASettingTableViewCell.h */,
 				14EA8BD41BF0FA0800DD72F8 /* EVASettingTableViewCell.m */,
@@ -730,6 +772,7 @@
 				143A30681BF3474900DEC134 /* f9_howto.html in Resources */,
 				143A30721BF3474900DEC134 /* k3_howto.html in Resources */,
 				143A30661BF3474900DEC134 /* credit_help.html in Resources */,
+				143A308E1BF3645E00DEC134 /* AboutHeaderView.xib in Resources */,
 				143A30691BF3474900DEC134 /* gdy11_howto.html in Resources */,
 				14822ACC1BF2E5A100EEEDF8 /* help.json in Resources */,
 				143A30701BF3474900DEC134 /* jxy11_howto.html in Resources */,
@@ -779,8 +822,11 @@
 				14822AD71BF314BB00EEEDF8 /* ScoreNoticeViewController.m in Sources */,
 				14822ADA1BF315E900EEEDF8 /* LabelItem.m in Sources */,
 				14822ABC1BF2E27F00EEEDF8 /* ProductViewController.m in Sources */,
+				143A30881BF363B300DEC134 /* AboutViewController.m in Sources */,
 				140EB6921BEF87C600E61A81 /* main.m in Sources */,
+				143A308C1BF3644C00DEC134 /* AboutHeaderView.m in Sources */,
 				14EA8BCC1BF0E92200DD72F8 /* EVASettingViewController.m in Sources */,
+				143A30841BF35D3B00DEC134 /* ShareViewController.m in Sources */,
 				14EA8BAA1BF09E7800DD72F8 /* EVATitleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

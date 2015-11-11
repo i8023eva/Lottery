@@ -20,6 +20,7 @@ typedef void(^EVASettingItemTypeBlock)();
 
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *icon;
+@property (nonatomic, copy) NSString *subTitle;
 
 /** 弃用 */
 @property (nonatomic, assign) EVASettingItemType type;

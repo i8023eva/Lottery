@@ -16,6 +16,8 @@
 #import "ProductViewController.h"
 #import "PushNoticeController.h"
 #import "HelpViewController.h"
+#import "ShareViewController.h"
+#import "AboutViewController.h"
 
 @interface EVASettingViewController ()
 
@@ -67,11 +69,11 @@
         };
         
     EVASettingItem *help = [ArrowItem itemWithIcon:@"MoreHelp" title:@"帮助" destVcClass:[HelpViewController class]];
-        EVASettingItem *MoreShare = [ArrowItem itemWithIcon:@"MoreShare" title:@"分享"];
+        EVASettingItem *MoreShare = [ArrowItem itemWithIcon:@"MoreShare" title:@"分享" destVcClass:[ShareViewController class]];
         EVASettingItem *MoreMessage = [ArrowItem itemWithIcon:@"MoreMessage" title:@"查看消息"];
         EVASettingItem *MoreNetease = [ArrowItem itemWithIcon:@"MoreNetease" title:@"产品推荐" destVcClass:[ProductViewController class]];
-        EVASettingItem *MoreAbout = [ArrowItem itemWithIcon:@"MoreAbout" title:@"关于"];
-        
+    EVASettingItem *MoreAbout = [ArrowItem itemWithIcon:@"MoreAbout" title:@"关于" destVcClass: [AboutViewController class]];
+    
         EVAGroup *group1 = [[EVAGroup alloc] init];
         group1.header = @"帮助";
         group1.items = @[newVersion,help,MoreShare,MoreMessage,MoreNetease,MoreAbout];

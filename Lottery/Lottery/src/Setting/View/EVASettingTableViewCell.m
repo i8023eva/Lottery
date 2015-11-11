@@ -60,6 +60,7 @@
         self.imageView.image = [UIImage imageNamed:item.icon];
     }
     self.textLabel.text = item.title;
+    self.detailTextLabel.text = item.subTitle;
     
     if ([_item isMemberOfClass:[ArrowItem class]]) {
         self.accessoryView = self.imgView;
@@ -87,7 +88,7 @@
     EVASettingTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID ];
     
     if (cell == nil) {
-        cell = [[self alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+        cell = [[self alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:ID];
     }
     return cell;
 }
