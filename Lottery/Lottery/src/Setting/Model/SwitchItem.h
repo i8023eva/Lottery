@@ -8,6 +8,9 @@
 
 #import "EVASettingItem.h"
 
+/**
+ *  UISwitch 模型
+ */
 @interface SwitchItem : EVASettingItem
 
 @end

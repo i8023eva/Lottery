@@ -6,8 +6,9 @@
 //  Copyright © 2015年 lyh. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 
-@interface EVASettingViewController : UITableViewController
+#import "BaseViewController.h"
+
+@interface EVASettingViewController : BaseViewController
 
 @end

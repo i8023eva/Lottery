@@ -10,13 +10,25 @@
 #import "EVASettingItem.h"
 #import "ArrowItem.h"
 #import "SwitchItem.h"
+#import "LabelItem.h"
 
 @interface EVASettingTableViewCell ()
 @property (nonatomic, strong) UISwitch *sw;
 @property (nonatomic, strong) UIImageView *imgView;
+@property (nonatomic, strong) UILabel *timeLabel;
 @end
 
 @implementation EVASettingTableViewCell
+
+-(UILabel *)timeLabel {
+    if (_timeLabel == nil) {
+        _timeLabel = [[UILabel alloc] init];
+        _timeLabel.bounds = CGRectMake(0, 0, 100, 44);
+        _timeLabel.textColor = [UIColor colorWithRed:1.000 green:0.502 blue:0.000 alpha:1.000];
+        _timeLabel.textAlignment = NSTextAlignmentRight;
+    }
+    return _timeLabel;
+}
 
 - (UIImageView *)imgView
 {
@@ -45,6 +57,12 @@
     }else if ([_item isMemberOfClass:[SwitchItem class]]) {
         self.accessoryView = self.sw;
         self.selectionStyle = UITableViewCellSelectionStyleNone;
+    }else if ([_item isKindOfClass:[LabelItem class]]){
+        self.accessoryView = self.timeLabel;
+#warning
+        LabelItem *labelItem = (LabelItem *)_item;
+        self.timeLabel.text = labelItem.text;
+        self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }else {
         self.accessoryView = nil;
         self.selectionStyle = UITableViewCellSelectionStyleDefault;

@@ -25,6 +25,11 @@
 		14822ACB1BF2E5A100EEEDF8 /* cywt.json in Resources */ = {isa = PBXBuildFile; fileRef = 14822AC81BF2E5A100EEEDF8 /* cywt.json */; };
 		14822ACC1BF2E5A100EEEDF8 /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = 14822AC91BF2E5A100EEEDF8 /* help.json */; };
 		14822ACD1BF2E5A100EEEDF8 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 14822ACA1BF2E5A100EEEDF8 /* products.json */; };
+		14822AD01BF2EE0600EEEDF8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822ACF1BF2EE0600EEEDF8 /* BaseViewController.m */; };
+		14822AD41BF2F28600EEEDF8 /* PushNoticeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AD31BF2F28600EEEDF8 /* PushNoticeController.m */; };
+		14822AD71BF314BB00EEEDF8 /* ScoreNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AD61BF314BB00EEEDF8 /* ScoreNoticeViewController.m */; };
+		14822ADA1BF315E900EEEDF8 /* LabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AD91BF315E900EEEDF8 /* LabelItem.m */; };
+		14822ADD1BF3162E00EEEDF8 /* SaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822ADC1BF3162E00EEEDF8 /* SaveTool.m */; };
 		14EA8BA11BF076D700DD72F8 /* EVATabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA01BF076D700DD72F8 /* EVATabBarButton.m */; };
 		14EA8BA41BF08FA200DD72F8 /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA31BF08FA200DD72F8 /* HallViewController.m */; };
 		14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA61BF0930C00DD72F8 /* EVANavigationController.m */; };
@@ -68,6 +73,16 @@
 		14822AC81BF2E5A100EEEDF8 /* cywt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cywt.json; sourceTree = "<group>"; };
 		14822AC91BF2E5A100EEEDF8 /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
 		14822ACA1BF2E5A100EEEDF8 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		14822ACE1BF2EE0600EEEDF8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		14822ACF1BF2EE0600EEEDF8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		14822AD21BF2F28600EEEDF8 /* PushNoticeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNoticeController.h; sourceTree = "<group>"; };
+		14822AD31BF2F28600EEEDF8 /* PushNoticeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNoticeController.m; sourceTree = "<group>"; };
+		14822AD51BF314BB00EEEDF8 /* ScoreNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreNoticeViewController.h; sourceTree = "<group>"; };
+		14822AD61BF314BB00EEEDF8 /* ScoreNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreNoticeViewController.m; sourceTree = "<group>"; };
+		14822AD81BF315E900EEEDF8 /* LabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelItem.h; sourceTree = "<group>"; };
+		14822AD91BF315E900EEEDF8 /* LabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelItem.m; sourceTree = "<group>"; };
+		14822ADB1BF3162E00EEEDF8 /* SaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveTool.h; sourceTree = "<group>"; };
+		14822ADC1BF3162E00EEEDF8 /* SaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveTool.m; sourceTree = "<group>"; };
 		14EA8B9F1BF076D700DD72F8 /* EVATabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATabBarButton.h; sourceTree = "<group>"; };
 		14EA8BA01BF076D700DD72F8 /* EVATabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATabBarButton.m; sourceTree = "<group>"; };
 		14EA8BA21BF08FA200DD72F8 /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
@@ -329,6 +344,8 @@
 		140EB6BD1BEF925400E61A81 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				14822ADB1BF3162E00EEEDF8 /* SaveTool.h */,
+				14822ADC1BF3162E00EEEDF8 /* SaveTool.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -435,6 +452,17 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		14822AD11BF2F25A00EEEDF8 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				14822AD21BF2F28600EEEDF8 /* PushNoticeController.h */,
+				14822AD31BF2F28600EEEDF8 /* PushNoticeController.m */,
+				14822AD51BF314BB00EEEDF8 /* ScoreNoticeViewController.h */,
+				14822AD61BF314BB00EEEDF8 /* ScoreNoticeViewController.m */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
 		14EA8BC61BF0E8C800DD72F8 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,9 +477,12 @@
 		14EA8BC71BF0E8C800DD72F8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				14822AD11BF2F25A00EEEDF8 /* Push */,
 				14822AB91BF2E25C00EEEDF8 /* Product */,
 				14EA8BCA1BF0E92200DD72F8 /* EVASettingViewController.h */,
 				14EA8BCB1BF0E92200DD72F8 /* EVASettingViewController.m */,
+				14822ACE1BF2EE0600EEEDF8 /* BaseViewController.h */,
+				14822ACF1BF2EE0600EEEDF8 /* BaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -468,6 +499,8 @@
 				14EA8BD71BF0FE5400DD72F8 /* ArrowItem.m */,
 				14EA8BD91BF0FEC500DD72F8 /* SwitchItem.h */,
 				14EA8BDA1BF0FEC500DD72F8 /* SwitchItem.m */,
+				14822AD81BF315E900EEEDF8 /* LabelItem.h */,
+				14822AD91BF315E900EEEDF8 /* LabelItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -565,6 +598,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14822ADD1BF3162E00EEEDF8 /* SaveTool.m in Sources */,
 				14EA8BD21BF0F5BA00DD72F8 /* EVAGroup.m in Sources */,
 				140EB6D11BEF9AB200E61A81 /* EVATabBarController.m in Sources */,
 				140EB6CA1BEF997B00E61A81 /* ViewController.m in Sources */,
@@ -578,10 +612,14 @@
 				14822AB61BF2E15200EEEDF8 /* MBProgressHUD+MJ.m in Sources */,
 				14EA8BDB1BF0FEC500DD72F8 /* SwitchItem.m in Sources */,
 				140EB6D41BEF9AC900E61A81 /* EVATabBar.m in Sources */,
+				14822AD01BF2EE0600EEEDF8 /* BaseViewController.m in Sources */,
 				140EB6C91BEF997B00E61A81 /* AppDelegate.m in Sources */,
 				14EA8BD51BF0FA0800DD72F8 /* EVASettingTableViewCell.m in Sources */,
 				14822AB81BF2E15200EEEDF8 /* MBProgressHUD.m in Sources */,
 				14EA8BC51BF0D55E00DD72F8 /* EVALoginViewController.m in Sources */,
+				14822AD41BF2F28600EEEDF8 /* PushNoticeController.m in Sources */,
+				14822AD71BF314BB00EEEDF8 /* ScoreNoticeViewController.m in Sources */,
+				14822ADA1BF315E900EEEDF8 /* LabelItem.m in Sources */,
 				14822ABC1BF2E27F00EEEDF8 /* ProductViewController.m in Sources */,
 				140EB6921BEF87C600E61A81 /* main.m in Sources */,
 				14EA8BCC1BF0E92200DD72F8 /* EVASettingViewController.m in Sources */,
