@@ -15,6 +15,7 @@
 #import "MBProgressHUD+MJ.h"
 #import "ProductViewController.h"
 #import "PushNoticeController.h"
+#import "HelpViewController.h"
 
 @interface EVASettingViewController ()
 
@@ -27,6 +28,7 @@
         // 0组
     EVASettingItem *pushNotice = [ArrowItem itemWithIcon:@"MorePush" title:@"推送和提醒" destVcClass:[PushNoticeController class]];
     EVASettingItem *yaoyiyao = [SwitchItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
+
     EVASettingItem *sound = [SwitchItem itemWithIcon:@"sound_Effect" title:@"声音效果"];
     
     EVAGroup *group0 = [[EVAGroup alloc] init];
@@ -64,7 +66,7 @@
             });
         };
         
-        EVASettingItem *help = [ArrowItem itemWithIcon:@"MoreHelp" title:@"帮助"];
+    EVASettingItem *help = [ArrowItem itemWithIcon:@"MoreHelp" title:@"帮助" destVcClass:[HelpViewController class]];
         EVASettingItem *MoreShare = [ArrowItem itemWithIcon:@"MoreShare" title:@"分享"];
         EVASettingItem *MoreMessage = [ArrowItem itemWithIcon:@"MoreMessage" title:@"查看消息"];
         EVASettingItem *MoreNetease = [ArrowItem itemWithIcon:@"MoreNetease" title:@"产品推荐" destVcClass:[ProductViewController class]];

@@ -13,4 +13,5 @@
  */
 @interface SwitchItem : EVASettingItem
 
+@property (nonatomic, assign) BOOL off;
 @end

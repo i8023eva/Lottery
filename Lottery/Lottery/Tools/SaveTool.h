@@ -14,6 +14,8 @@
 @interface SaveTool : NSObject
 
 + (void)setObject:(id)value forKey:(NSString *)defaultName;
++ (void)setBool:(BOOL)value forKey:(NSString *)defaultName;
 
 + (id)objectForKey:(NSString *)defaultName;
++ (BOOL)boolForKey:(NSString *)defaultName;
 @end

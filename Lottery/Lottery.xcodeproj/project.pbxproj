@@ -15,6 +15,38 @@
 		140EB6CA1BEF997B00E61A81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140EB6C81BEF997B00E61A81 /* ViewController.m */; };
 		140EB6D11BEF9AB200E61A81 /* EVATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140EB6D01BEF9AB200E61A81 /* EVATabBarController.m */; };
 		140EB6D41BEF9AC900E61A81 /* EVATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 140EB6D31BEF9AC900E61A81 /* EVATabBar.m */; };
+		143A303F1BF336B500DEC134 /* EVAHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A303E1BF336B500DEC134 /* EVAHelp.m */; };
+		143A30421BF337FB00DEC134 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A30411BF337FB00DEC134 /* HelpViewController.m */; };
+		143A30451BF3469700DEC134 /* HtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A30441BF3469700DEC134 /* HtmlViewController.m */; };
+		143A30641BF3474900DEC134 /* bjdc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30471BF3474900DEC134 /* bjdc_howto.html */; };
+		143A30651BF3474900DEC134 /* coupon_help.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30481BF3474900DEC134 /* coupon_help.html */; };
+		143A30661BF3474900DEC134 /* credit_help.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30491BF3474900DEC134 /* credit_help.html */; };
+		143A30671BF3474900DEC134 /* dlt_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A304A1BF3474900DEC134 /* dlt_howto.html */; };
+		143A30681BF3474900DEC134 /* f9_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A304B1BF3474900DEC134 /* f9_howto.html */; };
+		143A30691BF3474900DEC134 /* gdy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A304C1BF3474900DEC134 /* gdy11_howto.html */; };
+		143A306A1BF3474900DEC134 /* group_record.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A304D1BF3474900DEC134 /* group_record.html */; };
+		143A306B1BF3474900DEC134 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A304E1BF3474900DEC134 /* help.html */; };
+		143A306C1BF3474900DEC134 /* helpGroupBuy.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A304F1BF3474900DEC134 /* helpGroupBuy.html */; };
+		143A306D1BF3474900DEC134 /* jclq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30501BF3474900DEC134 /* jclq_howto.html */; };
+		143A306E1BF3474900DEC134 /* jczq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30511BF3474900DEC134 /* jczq_howto.html */; };
+		143A306F1BF3474900DEC134 /* jxssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30521BF3474900DEC134 /* jxssc_howto.html */; };
+		143A30701BF3474900DEC134 /* jxy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30531BF3474900DEC134 /* jxy11_howto.html */; };
+		143A30711BF3474900DEC134 /* k2_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30541BF3474900DEC134 /* k2_howto.html */; };
+		143A30721BF3474900DEC134 /* k3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30551BF3474900DEC134 /* k3_howto.html */; };
+		143A30731BF3474900DEC134 /* kl8_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30561BF3474900DEC134 /* kl8_howto.html */; };
+		143A30741BF3474900DEC134 /* lk11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30571BF3474900DEC134 /* lk11_howto.html */; };
+		143A30751BF3474900DEC134 /* networkconnectedfailed.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30581BF3474900DEC134 /* networkconnectedfailed.html */; };
+		143A30761BF3474900DEC134 /* pl3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30591BF3474900DEC134 /* pl3_howto.html */; };
+		143A30771BF3474900DEC134 /* pl5_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A305A1BF3474900DEC134 /* pl5_howto.html */; };
+		143A30781BF3474900DEC134 /* qlc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A305B1BF3474900DEC134 /* qlc_howto.html */; };
+		143A30791BF3474900DEC134 /* qxc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A305C1BF3474900DEC134 /* qxc_howto.html */; };
+		143A307A1BF3474900DEC134 /* rule.css in Resources */ = {isa = PBXBuildFile; fileRef = 143A305D1BF3474900DEC134 /* rule.css */; };
+		143A307B1BF3474900DEC134 /* sfc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A305E1BF3474900DEC134 /* sfc_howto.html */; };
+		143A307C1BF3474900DEC134 /* ssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A305F1BF3474900DEC134 /* ssc_howto.html */; };
+		143A307D1BF3474900DEC134 /* ssq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30601BF3474900DEC134 /* ssq_howto.html */; };
+		143A307E1BF3474900DEC134 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30611BF3474900DEC134 /* x3d_howto.html */; };
+		143A307F1BF3474900DEC134 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30621BF3474900DEC134 /* y11_howto.html */; };
+		143A30801BF3474900DEC134 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = 143A30631BF3474900DEC134 /* znzh.html */; };
 		14822AB61BF2E15200EEEDF8 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AB21BF2E15200EEEDF8 /* MBProgressHUD+MJ.m */; };
 		14822AB71BF2E15200EEEDF8 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14822AB31BF2E15200EEEDF8 /* MBProgressHUD.bundle */; };
 		14822AB81BF2E15200EEEDF8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AB51BF2E15200EEEDF8 /* MBProgressHUD.m */; };
@@ -58,6 +90,41 @@
 		140EB6D01BEF9AB200E61A81 /* EVATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATabBarController.m; sourceTree = "<group>"; };
 		140EB6D21BEF9AC900E61A81 /* EVATabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATabBar.h; sourceTree = "<group>"; };
 		140EB6D31BEF9AC900E61A81 /* EVATabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATabBar.m; sourceTree = "<group>"; };
+		143A303D1BF336B500DEC134 /* EVAHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAHelp.h; sourceTree = "<group>"; };
+		143A303E1BF336B500DEC134 /* EVAHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAHelp.m; sourceTree = "<group>"; };
+		143A30401BF337FB00DEC134 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		143A30411BF337FB00DEC134 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		143A30431BF3469700DEC134 /* HtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlViewController.h; sourceTree = "<group>"; };
+		143A30441BF3469700DEC134 /* HtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlViewController.m; sourceTree = "<group>"; };
+		143A30471BF3474900DEC134 /* bjdc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjdc_howto.html; sourceTree = "<group>"; };
+		143A30481BF3474900DEC134 /* coupon_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = coupon_help.html; sourceTree = "<group>"; };
+		143A30491BF3474900DEC134 /* credit_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = credit_help.html; sourceTree = "<group>"; };
+		143A304A1BF3474900DEC134 /* dlt_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dlt_howto.html; sourceTree = "<group>"; };
+		143A304B1BF3474900DEC134 /* f9_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = f9_howto.html; sourceTree = "<group>"; };
+		143A304C1BF3474900DEC134 /* gdy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdy11_howto.html; sourceTree = "<group>"; };
+		143A304D1BF3474900DEC134 /* group_record.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = group_record.html; sourceTree = "<group>"; };
+		143A304E1BF3474900DEC134 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		143A304F1BF3474900DEC134 /* helpGroupBuy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = helpGroupBuy.html; sourceTree = "<group>"; };
+		143A30501BF3474900DEC134 /* jclq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jclq_howto.html; sourceTree = "<group>"; };
+		143A30511BF3474900DEC134 /* jczq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jczq_howto.html; sourceTree = "<group>"; };
+		143A30521BF3474900DEC134 /* jxssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxssc_howto.html; sourceTree = "<group>"; };
+		143A30531BF3474900DEC134 /* jxy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxy11_howto.html; sourceTree = "<group>"; };
+		143A30541BF3474900DEC134 /* k2_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k2_howto.html; sourceTree = "<group>"; };
+		143A30551BF3474900DEC134 /* k3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k3_howto.html; sourceTree = "<group>"; };
+		143A30561BF3474900DEC134 /* kl8_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kl8_howto.html; sourceTree = "<group>"; };
+		143A30571BF3474900DEC134 /* lk11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lk11_howto.html; sourceTree = "<group>"; };
+		143A30581BF3474900DEC134 /* networkconnectedfailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = networkconnectedfailed.html; sourceTree = "<group>"; };
+		143A30591BF3474900DEC134 /* pl3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl3_howto.html; sourceTree = "<group>"; };
+		143A305A1BF3474900DEC134 /* pl5_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl5_howto.html; sourceTree = "<group>"; };
+		143A305B1BF3474900DEC134 /* qlc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qlc_howto.html; sourceTree = "<group>"; };
+		143A305C1BF3474900DEC134 /* qxc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qxc_howto.html; sourceTree = "<group>"; };
+		143A305D1BF3474900DEC134 /* rule.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rule.css; sourceTree = "<group>"; };
+		143A305E1BF3474900DEC134 /* sfc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sfc_howto.html; sourceTree = "<group>"; };
+		143A305F1BF3474900DEC134 /* ssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssc_howto.html; sourceTree = "<group>"; };
+		143A30601BF3474900DEC134 /* ssq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssq_howto.html; sourceTree = "<group>"; };
+		143A30611BF3474900DEC134 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
+		143A30621BF3474900DEC134 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
+		143A30631BF3474900DEC134 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
 		14822AB11BF2E15200EEEDF8 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		14822AB21BF2E15200EEEDF8 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		14822AB31BF2E15200EEEDF8 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -401,6 +468,62 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		143A303B1BF3368E00DEC134 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				143A303D1BF336B500DEC134 /* EVAHelp.h */,
+				143A303E1BF336B500DEC134 /* EVAHelp.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		143A303C1BF3369500DEC134 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				143A30401BF337FB00DEC134 /* HelpViewController.h */,
+				143A30411BF337FB00DEC134 /* HelpViewController.m */,
+				143A30431BF3469700DEC134 /* HtmlViewController.h */,
+				143A30441BF3469700DEC134 /* HtmlViewController.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		143A30461BF3474900DEC134 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				143A30471BF3474900DEC134 /* bjdc_howto.html */,
+				143A30481BF3474900DEC134 /* coupon_help.html */,
+				143A30491BF3474900DEC134 /* credit_help.html */,
+				143A304A1BF3474900DEC134 /* dlt_howto.html */,
+				143A304B1BF3474900DEC134 /* f9_howto.html */,
+				143A304C1BF3474900DEC134 /* gdy11_howto.html */,
+				143A304D1BF3474900DEC134 /* group_record.html */,
+				143A304E1BF3474900DEC134 /* help.html */,
+				143A304F1BF3474900DEC134 /* helpGroupBuy.html */,
+				143A30501BF3474900DEC134 /* jclq_howto.html */,
+				143A30511BF3474900DEC134 /* jczq_howto.html */,
+				143A30521BF3474900DEC134 /* jxssc_howto.html */,
+				143A30531BF3474900DEC134 /* jxy11_howto.html */,
+				143A30541BF3474900DEC134 /* k2_howto.html */,
+				143A30551BF3474900DEC134 /* k3_howto.html */,
+				143A30561BF3474900DEC134 /* kl8_howto.html */,
+				143A30571BF3474900DEC134 /* lk11_howto.html */,
+				143A30581BF3474900DEC134 /* networkconnectedfailed.html */,
+				143A30591BF3474900DEC134 /* pl3_howto.html */,
+				143A305A1BF3474900DEC134 /* pl5_howto.html */,
+				143A305B1BF3474900DEC134 /* qlc_howto.html */,
+				143A305C1BF3474900DEC134 /* qxc_howto.html */,
+				143A305D1BF3474900DEC134 /* rule.css */,
+				143A305E1BF3474900DEC134 /* sfc_howto.html */,
+				143A305F1BF3474900DEC134 /* ssc_howto.html */,
+				143A30601BF3474900DEC134 /* ssq_howto.html */,
+				143A30611BF3474900DEC134 /* x3d_howto.html */,
+				143A30621BF3474900DEC134 /* y11_howto.html */,
+				143A30631BF3474900DEC134 /* znzh.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
 		14822AB01BF2E15200EEEDF8 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,6 +590,7 @@
 			isa = PBXGroup;
 			children = (
 				14822AC71BF2E5A100EEEDF8 /* JSON */,
+				143A30461BF3474900DEC134 /* Html */,
 				14EA8BC71BF0E8C800DD72F8 /* Controller */,
 				14EA8BC81BF0E8C800DD72F8 /* Model */,
 				14EA8BC91BF0E8C800DD72F8 /* View */,
@@ -477,6 +601,7 @@
 		14EA8BC71BF0E8C800DD72F8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				143A303C1BF3369500DEC134 /* Help */,
 				14822AD11BF2F25A00EEEDF8 /* Push */,
 				14822AB91BF2E25C00EEEDF8 /* Product */,
 				14EA8BCA1BF0E92200DD72F8 /* EVASettingViewController.h */,
@@ -490,6 +615,7 @@
 		14EA8BC81BF0E8C800DD72F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				143A303B1BF3368E00DEC134 /* Help */,
 				14822ABD1BF2E2AF00EEEDF8 /* Product */,
 				14EA8BCD1BF0EFFA00DD72F8 /* EVASettingItem.h */,
 				14EA8BCE1BF0EFFA00DD72F8 /* EVASettingItem.m */,
@@ -581,13 +707,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				14822ACB1BF2E5A100EEEDF8 /* cywt.json in Resources */,
+				143A30671BF3474900DEC134 /* dlt_howto.html in Resources */,
+				143A30741BF3474900DEC134 /* lk11_howto.html in Resources */,
 				14822ACD1BF2E5A100EEEDF8 /* products.json in Resources */,
 				14822AC61BF2E34B00EEEDF8 /* EVAProductCell.xib in Resources */,
+				143A306E1BF3474900DEC134 /* jczq_howto.html in Resources */,
+				143A307C1BF3474900DEC134 /* ssc_howto.html in Resources */,
+				143A30641BF3474900DEC134 /* bjdc_howto.html in Resources */,
+				143A307E1BF3474900DEC134 /* x3d_howto.html in Resources */,
+				143A306B1BF3474900DEC134 /* help.html in Resources */,
+				143A306A1BF3474900DEC134 /* group_record.html in Resources */,
+				143A30731BF3474900DEC134 /* kl8_howto.html in Resources */,
+				143A30771BF3474900DEC134 /* pl5_howto.html in Resources */,
 				140EB6A01BEF87C600E61A81 /* LaunchScreen.storyboard in Resources */,
+				143A306D1BF3474900DEC134 /* jclq_howto.html in Resources */,
+				143A307A1BF3474900DEC134 /* rule.css in Resources */,
+				143A306F1BF3474900DEC134 /* jxssc_howto.html in Resources */,
 				14822AB71BF2E15200EEEDF8 /* MBProgressHUD.bundle in Resources */,
 				140EB69D1BEF87C600E61A81 /* Assets.xcassets in Resources */,
 				140EB69B1BEF87C600E61A81 /* Main.storyboard in Resources */,
+				143A30761BF3474900DEC134 /* pl3_howto.html in Resources */,
+				143A30681BF3474900DEC134 /* f9_howto.html in Resources */,
+				143A30721BF3474900DEC134 /* k3_howto.html in Resources */,
+				143A30661BF3474900DEC134 /* credit_help.html in Resources */,
+				143A30691BF3474900DEC134 /* gdy11_howto.html in Resources */,
 				14822ACC1BF2E5A100EEEDF8 /* help.json in Resources */,
+				143A30701BF3474900DEC134 /* jxy11_howto.html in Resources */,
+				143A30751BF3474900DEC134 /* networkconnectedfailed.html in Resources */,
+				143A30781BF3474900DEC134 /* qlc_howto.html in Resources */,
+				143A30711BF3474900DEC134 /* k2_howto.html in Resources */,
+				143A30791BF3474900DEC134 /* qxc_howto.html in Resources */,
+				143A30801BF3474900DEC134 /* znzh.html in Resources */,
+				143A307D1BF3474900DEC134 /* ssq_howto.html in Resources */,
+				143A307F1BF3474900DEC134 /* y11_howto.html in Resources */,
+				143A307B1BF3474900DEC134 /* sfc_howto.html in Resources */,
+				143A30651BF3474900DEC134 /* coupon_help.html in Resources */,
+				143A306C1BF3474900DEC134 /* helpGroupBuy.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,14 +764,17 @@
 				14822AC51BF2E34B00EEEDF8 /* EVAProductCell.m in Sources */,
 				14EA8BCF1BF0EFFA00DD72F8 /* EVASettingItem.m in Sources */,
 				14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */,
+				143A30421BF337FB00DEC134 /* HelpViewController.m in Sources */,
 				14822AB61BF2E15200EEEDF8 /* MBProgressHUD+MJ.m in Sources */,
 				14EA8BDB1BF0FEC500DD72F8 /* SwitchItem.m in Sources */,
+				143A30451BF3469700DEC134 /* HtmlViewController.m in Sources */,
 				140EB6D41BEF9AC900E61A81 /* EVATabBar.m in Sources */,
 				14822AD01BF2EE0600EEEDF8 /* BaseViewController.m in Sources */,
 				140EB6C91BEF997B00E61A81 /* AppDelegate.m in Sources */,
 				14EA8BD51BF0FA0800DD72F8 /* EVASettingTableViewCell.m in Sources */,
 				14822AB81BF2E15200EEEDF8 /* MBProgressHUD.m in Sources */,
 				14EA8BC51BF0D55E00DD72F8 /* EVALoginViewController.m in Sources */,
+				143A303F1BF336B500DEC134 /* EVAHelp.m in Sources */,
 				14822AD41BF2F28600EEEDF8 /* PushNoticeController.m in Sources */,
 				14822AD71BF314BB00EEEDF8 /* ScoreNoticeViewController.m in Sources */,
 				14822ADA1BF315E900EEEDF8 /* LabelItem.m in Sources */,

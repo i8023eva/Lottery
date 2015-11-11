@@ -16,6 +16,8 @@
 @property (nonatomic, strong) UISwitch *sw;
 @property (nonatomic, strong) UIImageView *imgView;
 @property (nonatomic, strong) UILabel *timeLabel;
+
+@property (nonatomic, strong) SwitchItem *valueOn;//妈的,  并不是使用属性
 @end
 
 @implementation EVASettingTableViewCell
@@ -41,20 +43,31 @@
 -(UISwitch *)sw {
     if (_sw == nil) {
         _sw = [[UISwitch alloc]init];
+        [_sw addTarget:self action:@selector(valuechanged:) forControlEvents:UIControlEventValueChanged];
     }
     return _sw;
 }
 
+-(void) valuechanged: (UISwitch *)sender { //不能随意点击
+    SwitchItem *switchItem = (SwitchItem *)self.item;
+    switchItem.off = !sender.isOn;
+}
+
 -(void)setItem:(EVASettingItem *)item {
     _item = item;
-    
-    self.imageView.image = [UIImage imageNamed:item.icon];
+#warning 有些是没有图片的
+    if (_item.icon.length) {
+        self.imageView.image = [UIImage imageNamed:item.icon];
+    }
     self.textLabel.text = item.title;
     
     if ([_item isMemberOfClass:[ArrowItem class]]) {
         self.accessoryView = self.imgView;
         self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }else if ([_item isMemberOfClass:[SwitchItem class]]) {
+        
+        SwitchItem *switchItem = (SwitchItem *)_item;
+        self.sw.on = !switchItem.off;
         self.accessoryView = self.sw;
         self.selectionStyle = UITableViewCellSelectionStyleNone;
     }else if ([_item isKindOfClass:[LabelItem class]]){
