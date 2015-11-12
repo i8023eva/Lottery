@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UMSocial.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,8 @@
     application.statusBarHidden = NO;
     //在 Info.plist 中添加字段, 使控制器不再管理状态栏的样式
     application.statusBarStyle = UIStatusBarStyleLightContent;
+    
+    [UMSocialData setAppKey:@"5643e9a8e0f55a6f7500b567"];
     
     return YES;
 }

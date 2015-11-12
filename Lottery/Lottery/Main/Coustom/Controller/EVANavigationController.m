@@ -33,8 +33,11 @@
 {
 #warning appearance
     // 获取应用程序中所有的导航条
-    // 获取所有导航条外观
-    UINavigationBar *bar = [UINavigationBar appearance];
+    // 获取所有导航条外观------不使用
+    /**
+     *  现在我们需要获取自己导航控制器的控制条   -----iOS7的短信问题
+     */
+    UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[EVANavigationController class]]];
     
     UIImage *navImage = nil;
     

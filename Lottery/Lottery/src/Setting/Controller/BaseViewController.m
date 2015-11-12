@@ -33,6 +33,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView.contentInset = UIEdgeInsetsMake(-15, 0, 0, 0);
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -70,6 +72,16 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     // 创建cell
     EVASettingTableViewCell *cell = [EVASettingTableViewCell cellWithTableView:tableView];
+    
+    /**
+     *  已经生成的 cell 的 frame是不会变的, 重新拖动使其重新生成
+     *
+     *  @param @"%@"      {{0, 0}, {320, 44}}
+     *  @param cell.frame {{0, 35}, {320, 44}}
+     *
+     *  @return <#return value description#>
+     */
+//    NSLog(@"%@", NSStringFromCGRect(cell.frame));
     
     // 取出模型
     EVAGroup *group = self.sourceArray[indexPath.section];

@@ -67,16 +67,30 @@
 		14822ADA1BF315E900EEEDF8 /* LabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822AD91BF315E900EEEDF8 /* LabelItem.m */; };
 		14822ADD1BF3162E00EEEDF8 /* SaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 14822ADC1BF3162E00EEEDF8 /* SaveTool.m */; };
 		14EA8BA11BF076D700DD72F8 /* EVATabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA01BF076D700DD72F8 /* EVATabBarButton.m */; };
-		14EA8BA41BF08FA200DD72F8 /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA31BF08FA200DD72F8 /* HallViewController.m */; };
 		14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA61BF0930C00DD72F8 /* EVANavigationController.m */; };
-		14EA8BAA1BF09E7800DD72F8 /* EVATitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BA91BF09E7800DD72F8 /* EVATitleButton.m */; };
-		14EA8BC51BF0D55E00DD72F8 /* EVALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BC41BF0D55E00DD72F8 /* EVALoginViewController.m */; };
 		14EA8BCC1BF0E92200DD72F8 /* EVASettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BCB1BF0E92200DD72F8 /* EVASettingViewController.m */; };
 		14EA8BCF1BF0EFFA00DD72F8 /* EVASettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BCE1BF0EFFA00DD72F8 /* EVASettingItem.m */; };
 		14EA8BD21BF0F5BA00DD72F8 /* EVAGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BD11BF0F5BA00DD72F8 /* EVAGroup.m */; };
 		14EA8BD51BF0FA0800DD72F8 /* EVASettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BD41BF0FA0800DD72F8 /* EVASettingTableViewCell.m */; };
 		14EA8BD81BF0FE5400DD72F8 /* ArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BD71BF0FE5400DD72F8 /* ArrowItem.m */; };
 		14EA8BDB1BF0FEC500DD72F8 /* SwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA8BDA1BF0FEC500DD72F8 /* SwitchItem.m */; };
+		14EEA9B71BF420ED001F8097 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA99C1BF420ED001F8097 /* UMSocialLocalizable.strings */; };
+		14EEA9B81BF420ED001F8097 /* libUMSocial_Sdk_4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EEA9AA1BF420ED001F8097 /* libUMSocial_Sdk_4.3.a */; };
+		14EEA9B91BF420ED001F8097 /* libUMSocial_Sdk_Comment_4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EEA9AB1BF420ED001F8097 /* libUMSocial_Sdk_Comment_4.3.a */; };
+		14EEA9BA1BF420ED001F8097 /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA9AD1BF420ED001F8097 /* UMSCommentDetailController.xib */; };
+		14EEA9BB1BF420ED001F8097 /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA9AE1BF420ED001F8097 /* UMSCommentInputController.xib */; };
+		14EEA9BC1BF420ED001F8097 /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA9AF1BF420ED001F8097 /* UMSCommentInputControlleriPad.xib */; };
+		14EEA9BD1BF420ED001F8097 /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA9B01BF420ED001F8097 /* UMShareEditViewController.xib */; };
+		14EEA9BE1BF420ED001F8097 /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA9B11BF420ED001F8097 /* UMShareEditViewControlleriPad.xib */; };
+		14EEA9BF1BF420ED001F8097 /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA9B21BF420ED001F8097 /* UMSLoginViewController.xib */; };
+		14EEA9C01BF420ED001F8097 /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA9B31BF420ED001F8097 /* UMSnsAccountViewController.xib */; };
+		14EEA9C11BF420ED001F8097 /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA9B41BF420ED001F8097 /* UMSShareListController.xib */; };
+		14EEA9C21BF420ED001F8097 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14EEA9B51BF420ED001F8097 /* UMSocialSDKResourcesNew.bundle */; };
+		14EEA9C41BF4216D001F8097 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EEA9C31BF4216D001F8097 /* libz.tbd */; };
+		14EEA9C61BF42209001F8097 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EEA9C51BF42209001F8097 /* SystemConfiguration.framework */; };
+		14EEA9E21BF4280C001F8097 /* EVATitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EEA9CD1BF4280C001F8097 /* EVATitleButton.m */; };
+		14EEA9E31BF4280C001F8097 /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EEA9D11BF4280C001F8097 /* HallViewController.m */; };
+		14EEA9E41BF4280C001F8097 /* EVALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EEA9DF1BF4280C001F8097 /* EVALoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,14 +177,8 @@
 		14822ADC1BF3162E00EEEDF8 /* SaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveTool.m; sourceTree = "<group>"; };
 		14EA8B9F1BF076D700DD72F8 /* EVATabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATabBarButton.h; sourceTree = "<group>"; };
 		14EA8BA01BF076D700DD72F8 /* EVATabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATabBarButton.m; sourceTree = "<group>"; };
-		14EA8BA21BF08FA200DD72F8 /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
-		14EA8BA31BF08FA200DD72F8 /* HallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallViewController.m; sourceTree = "<group>"; };
 		14EA8BA51BF0930C00DD72F8 /* EVANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVANavigationController.h; sourceTree = "<group>"; };
 		14EA8BA61BF0930C00DD72F8 /* EVANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVANavigationController.m; sourceTree = "<group>"; };
-		14EA8BA81BF09E7800DD72F8 /* EVATitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATitleButton.h; sourceTree = "<group>"; };
-		14EA8BA91BF09E7800DD72F8 /* EVATitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATitleButton.m; sourceTree = "<group>"; };
-		14EA8BC31BF0D55E00DD72F8 /* EVALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVALoginViewController.h; sourceTree = "<group>"; };
-		14EA8BC41BF0D55E00DD72F8 /* EVALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVALoginViewController.m; sourceTree = "<group>"; };
 		14EA8BCA1BF0E92200DD72F8 /* EVASettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVASettingViewController.h; sourceTree = "<group>"; };
 		14EA8BCB1BF0E92200DD72F8 /* EVASettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVASettingViewController.m; sourceTree = "<group>"; };
 		14EA8BCD1BF0EFFA00DD72F8 /* EVASettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVASettingItem.h; sourceTree = "<group>"; };
@@ -183,6 +191,38 @@
 		14EA8BD71BF0FE5400DD72F8 /* ArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowItem.m; sourceTree = "<group>"; };
 		14EA8BD91BF0FEC500DD72F8 /* SwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchItem.h; sourceTree = "<group>"; };
 		14EA8BDA1BF0FEC500DD72F8 /* SwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchItem.m; sourceTree = "<group>"; };
+		14EEA99D1BF420ED001F8097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		14EEA99F1BF420ED001F8097 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		14EEA9A01BF420ED001F8097 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		14EEA9A11BF420ED001F8097 /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		14EEA9A21BF420ED001F8097 /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		14EEA9A31BF420ED001F8097 /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		14EEA9A41BF420ED001F8097 /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		14EEA9A51BF420ED001F8097 /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		14EEA9A61BF420ED001F8097 /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		14EEA9A71BF420ED001F8097 /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		14EEA9A81BF420ED001F8097 /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		14EEA9A91BF420ED001F8097 /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		14EEA9AA1BF420ED001F8097 /* libUMSocial_Sdk_4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.3.a; sourceTree = "<group>"; };
+		14EEA9AB1BF420ED001F8097 /* libUMSocial_Sdk_Comment_4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_Comment_4.3.a; sourceTree = "<group>"; };
+		14EEA9AD1BF420ED001F8097 /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		14EEA9AE1BF420ED001F8097 /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		14EEA9AF1BF420ED001F8097 /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		14EEA9B01BF420ED001F8097 /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		14EEA9B11BF420ED001F8097 /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		14EEA9B21BF420ED001F8097 /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		14EEA9B31BF420ED001F8097 /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		14EEA9B41BF420ED001F8097 /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		14EEA9B51BF420ED001F8097 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		14EEA9B61BF420ED001F8097 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		14EEA9C31BF4216D001F8097 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		14EEA9C51BF42209001F8097 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14EEA9CC1BF4280C001F8097 /* EVATitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATitleButton.h; sourceTree = "<group>"; };
+		14EEA9CD1BF4280C001F8097 /* EVATitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATitleButton.m; sourceTree = "<group>"; };
+		14EEA9D01BF4280C001F8097 /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
+		14EEA9D11BF4280C001F8097 /* HallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallViewController.m; sourceTree = "<group>"; };
+		14EEA9DE1BF4280C001F8097 /* EVALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVALoginViewController.h; sourceTree = "<group>"; };
+		14EEA9DF1BF4280C001F8097 /* EVALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVALoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +230,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EEA9C61BF42209001F8097 /* SystemConfiguration.framework in Frameworks */,
+				14EEA9C41BF4216D001F8097 /* libz.tbd in Frameworks */,
+				14EEA9B81BF420ED001F8097 /* libUMSocial_Sdk_4.3.a in Frameworks */,
+				14EEA9B91BF420ED001F8097 /* libUMSocial_Sdk_Comment_4.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +284,7 @@
 		140EB6A71BEF925400E61A81 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				14EEA99B1BF420ED001F8097 /* UMSocial_Sdk_4.3 */,
 				14822AB01BF2E15200EEEDF8 /* MBProgressHUD */,
 			);
 			path = Libs;
@@ -248,175 +293,10 @@
 		140EB6A81BEF925400E61A81 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				14EEA9C71BF4280C001F8097 /* 未命名文件夹 */,
 				14EA8BC61BF0E8C800DD72F8 /* Setting */,
-				140EB6AD1BEF925400E61A81 /* Hall */,
-				140EB6A91BEF925400E61A81 /* Buy */,
-				140EB6B11BEF925400E61A81 /* Lucky */,
-				140EB6B51BEF925400E61A81 /* Reward */,
-				140EB6B91BEF925400E61A81 /* User */,
 			);
 			path = src;
-			sourceTree = "<group>";
-		};
-		140EB6A91BEF925400E61A81 /* Buy */ = {
-			isa = PBXGroup;
-			children = (
-				140EB6AA1BEF925400E61A81 /* Controller */,
-				140EB6AB1BEF925400E61A81 /* Model */,
-				140EB6AC1BEF925400E61A81 /* View */,
-			);
-			path = Buy;
-			sourceTree = "<group>";
-		};
-		140EB6AA1BEF925400E61A81 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		140EB6AB1BEF925400E61A81 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		140EB6AC1BEF925400E61A81 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				14EA8BA81BF09E7800DD72F8 /* EVATitleButton.h */,
-				14EA8BA91BF09E7800DD72F8 /* EVATitleButton.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		140EB6AD1BEF925400E61A81 /* Hall */ = {
-			isa = PBXGroup;
-			children = (
-				140EB6AE1BEF925400E61A81 /* Controller */,
-				140EB6AF1BEF925400E61A81 /* Model */,
-				140EB6B01BEF925400E61A81 /* View */,
-			);
-			path = Hall;
-			sourceTree = "<group>";
-		};
-		140EB6AE1BEF925400E61A81 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				14EA8BA21BF08FA200DD72F8 /* HallViewController.h */,
-				14EA8BA31BF08FA200DD72F8 /* HallViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		140EB6AF1BEF925400E61A81 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		140EB6B01BEF925400E61A81 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		140EB6B11BEF925400E61A81 /* Lucky */ = {
-			isa = PBXGroup;
-			children = (
-				140EB6B21BEF925400E61A81 /* Controller */,
-				140EB6B31BEF925400E61A81 /* Model */,
-				140EB6B41BEF925400E61A81 /* View */,
-			);
-			path = Lucky;
-			sourceTree = "<group>";
-		};
-		140EB6B21BEF925400E61A81 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		140EB6B31BEF925400E61A81 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		140EB6B41BEF925400E61A81 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		140EB6B51BEF925400E61A81 /* Reward */ = {
-			isa = PBXGroup;
-			children = (
-				140EB6B61BEF925400E61A81 /* Controller */,
-				140EB6B71BEF925400E61A81 /* Model */,
-				140EB6B81BEF925400E61A81 /* View */,
-			);
-			path = Reward;
-			sourceTree = "<group>";
-		};
-		140EB6B61BEF925400E61A81 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		140EB6B71BEF925400E61A81 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		140EB6B81BEF925400E61A81 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		140EB6B91BEF925400E61A81 /* User */ = {
-			isa = PBXGroup;
-			children = (
-				140EB6BA1BEF925400E61A81 /* Controller */,
-				140EB6BB1BEF925400E61A81 /* Model */,
-				140EB6BC1BEF925400E61A81 /* View */,
-			);
-			path = User;
-			sourceTree = "<group>";
-		};
-		140EB6BA1BEF925400E61A81 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				14EA8BC31BF0D55E00DD72F8 /* EVALoginViewController.h */,
-				14EA8BC41BF0D55E00DD72F8 /* EVALoginViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		140EB6BB1BEF925400E61A81 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		140EB6BC1BEF925400E61A81 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		140EB6BD1BEF925400E61A81 /* Tools */ = {
@@ -683,9 +563,230 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		14EEA99B1BF420ED001F8097 /* UMSocial_Sdk_4.3 */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA99C1BF420ED001F8097 /* UMSocialLocalizable.strings */,
+				14EEA99E1BF420ED001F8097 /* Header */,
+				14EEA9AA1BF420ED001F8097 /* libUMSocial_Sdk_4.3.a */,
+				14EEA9AB1BF420ED001F8097 /* libUMSocial_Sdk_Comment_4.3.a */,
+				14EEA9AC1BF420ED001F8097 /* SocialSDKXib */,
+				14EEA9B51BF420ED001F8097 /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_4.3;
+			sourceTree = "<group>";
+		};
+		14EEA99E1BF420ED001F8097 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA99F1BF420ED001F8097 /* UMSocial.h */,
+				14EEA9A01BF420ED001F8097 /* UMSocialAccountManager.h */,
+				14EEA9A11BF420ED001F8097 /* UMSocialBar.h */,
+				14EEA9A21BF420ED001F8097 /* UMSocialConfig.h */,
+				14EEA9A31BF420ED001F8097 /* UMSocialControllerService.h */,
+				14EEA9A41BF420ED001F8097 /* UMSocialControllerServiceComment.h */,
+				14EEA9A51BF420ED001F8097 /* UMSocialData.h */,
+				14EEA9A61BF420ED001F8097 /* UMSocialDataService.h */,
+				14EEA9A71BF420ED001F8097 /* UMSocialSnsData.h */,
+				14EEA9A81BF420ED001F8097 /* UMSocialSnsPlatformManager.h */,
+				14EEA9A91BF420ED001F8097 /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		14EEA9AC1BF420ED001F8097 /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9AD1BF420ED001F8097 /* UMSCommentDetailController.xib */,
+				14EEA9AE1BF420ED001F8097 /* UMSCommentInputController.xib */,
+				14EEA9AF1BF420ED001F8097 /* UMSCommentInputControlleriPad.xib */,
+				14EEA9B01BF420ED001F8097 /* UMShareEditViewController.xib */,
+				14EEA9B11BF420ED001F8097 /* UMShareEditViewControlleriPad.xib */,
+				14EEA9B21BF420ED001F8097 /* UMSLoginViewController.xib */,
+				14EEA9B31BF420ED001F8097 /* UMSnsAccountViewController.xib */,
+				14EEA9B41BF420ED001F8097 /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		14EEA9C71BF4280C001F8097 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9C81BF4280C001F8097 /* Buy */,
+				14EEA9CE1BF4280C001F8097 /* Hall */,
+				14EEA9D41BF4280C001F8097 /* Lucky */,
+				14EEA9D81BF4280C001F8097 /* Reward */,
+				14EEA9DC1BF4280C001F8097 /* User */,
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		14EEA9C81BF4280C001F8097 /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9C91BF4280C001F8097 /* Controller */,
+				14EEA9CA1BF4280C001F8097 /* Model */,
+				14EEA9CB1BF4280C001F8097 /* View */,
+			);
+			path = Buy;
+			sourceTree = "<group>";
+		};
+		14EEA9C91BF4280C001F8097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14EEA9CA1BF4280C001F8097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14EEA9CB1BF4280C001F8097 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9CC1BF4280C001F8097 /* EVATitleButton.h */,
+				14EEA9CD1BF4280C001F8097 /* EVATitleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14EEA9CE1BF4280C001F8097 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9CF1BF4280C001F8097 /* Controller */,
+				14EEA9D21BF4280C001F8097 /* Model */,
+				14EEA9D31BF4280C001F8097 /* View */,
+			);
+			path = Hall;
+			sourceTree = "<group>";
+		};
+		14EEA9CF1BF4280C001F8097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9D01BF4280C001F8097 /* HallViewController.h */,
+				14EEA9D11BF4280C001F8097 /* HallViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14EEA9D21BF4280C001F8097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14EEA9D31BF4280C001F8097 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14EEA9D41BF4280C001F8097 /* Lucky */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9D51BF4280C001F8097 /* Controller */,
+				14EEA9D61BF4280C001F8097 /* Model */,
+				14EEA9D71BF4280C001F8097 /* View */,
+			);
+			path = Lucky;
+			sourceTree = "<group>";
+		};
+		14EEA9D51BF4280C001F8097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14EEA9D61BF4280C001F8097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14EEA9D71BF4280C001F8097 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14EEA9D81BF4280C001F8097 /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9D91BF4280C001F8097 /* Controller */,
+				14EEA9DA1BF4280C001F8097 /* Model */,
+				14EEA9DB1BF4280C001F8097 /* View */,
+			);
+			path = Reward;
+			sourceTree = "<group>";
+		};
+		14EEA9D91BF4280C001F8097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14EEA9DA1BF4280C001F8097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14EEA9DB1BF4280C001F8097 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14EEA9DC1BF4280C001F8097 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9DD1BF4280C001F8097 /* Controller */,
+				14EEA9E01BF4280C001F8097 /* Model */,
+				14EEA9E11BF4280C001F8097 /* View */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		14EEA9DD1BF4280C001F8097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14EEA9DE1BF4280C001F8097 /* EVALoginViewController.h */,
+				14EEA9DF1BF4280C001F8097 /* EVALoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14EEA9E01BF4280C001F8097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14EEA9E11BF4280C001F8097 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F4BC9FE072FA4BC9F46DC4EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14EEA9C51BF42209001F8097 /* SystemConfiguration.framework */,
+				14EEA9C31BF4216D001F8097 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -721,7 +822,6 @@
 				TargetAttributes = {
 					140EB68C1BEF87C600E61A81 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 54QJF9L7X8;
 					};
 				};
 			};
@@ -732,6 +832,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 140EB6841BEF87C600E61A81;
 			productRefGroup = 140EB68E1BEF87C600E61A81 /* Products */;
@@ -754,6 +855,7 @@
 				14822ACD1BF2E5A100EEEDF8 /* products.json in Resources */,
 				14822AC61BF2E34B00EEEDF8 /* EVAProductCell.xib in Resources */,
 				143A306E1BF3474900DEC134 /* jczq_howto.html in Resources */,
+				14EEA9BA1BF420ED001F8097 /* UMSCommentDetailController.xib in Resources */,
 				143A307C1BF3474900DEC134 /* ssc_howto.html in Resources */,
 				143A30641BF3474900DEC134 /* bjdc_howto.html in Resources */,
 				143A307E1BF3474900DEC134 /* x3d_howto.html in Resources */,
@@ -761,6 +863,8 @@
 				143A306A1BF3474900DEC134 /* group_record.html in Resources */,
 				143A30731BF3474900DEC134 /* kl8_howto.html in Resources */,
 				143A30771BF3474900DEC134 /* pl5_howto.html in Resources */,
+				14EEA9BF1BF420ED001F8097 /* UMSLoginViewController.xib in Resources */,
+				14EEA9BE1BF420ED001F8097 /* UMShareEditViewControlleriPad.xib in Resources */,
 				140EB6A01BEF87C600E61A81 /* LaunchScreen.storyboard in Resources */,
 				143A306D1BF3474900DEC134 /* jclq_howto.html in Resources */,
 				143A307A1BF3474900DEC134 /* rule.css in Resources */,
@@ -771,21 +875,28 @@
 				143A30761BF3474900DEC134 /* pl3_howto.html in Resources */,
 				143A30681BF3474900DEC134 /* f9_howto.html in Resources */,
 				143A30721BF3474900DEC134 /* k3_howto.html in Resources */,
+				14EEA9BC1BF420ED001F8097 /* UMSCommentInputControlleriPad.xib in Resources */,
 				143A30661BF3474900DEC134 /* credit_help.html in Resources */,
 				143A308E1BF3645E00DEC134 /* AboutHeaderView.xib in Resources */,
+				14EEA9BD1BF420ED001F8097 /* UMShareEditViewController.xib in Resources */,
 				143A30691BF3474900DEC134 /* gdy11_howto.html in Resources */,
 				14822ACC1BF2E5A100EEEDF8 /* help.json in Resources */,
 				143A30701BF3474900DEC134 /* jxy11_howto.html in Resources */,
 				143A30751BF3474900DEC134 /* networkconnectedfailed.html in Resources */,
 				143A30781BF3474900DEC134 /* qlc_howto.html in Resources */,
+				14EEA9C01BF420ED001F8097 /* UMSnsAccountViewController.xib in Resources */,
 				143A30711BF3474900DEC134 /* k2_howto.html in Resources */,
 				143A30791BF3474900DEC134 /* qxc_howto.html in Resources */,
 				143A30801BF3474900DEC134 /* znzh.html in Resources */,
 				143A307D1BF3474900DEC134 /* ssq_howto.html in Resources */,
 				143A307F1BF3474900DEC134 /* y11_howto.html in Resources */,
+				14EEA9B71BF420ED001F8097 /* UMSocialLocalizable.strings in Resources */,
+				14EEA9C21BF420ED001F8097 /* UMSocialSDKResourcesNew.bundle in Resources */,
 				143A307B1BF3474900DEC134 /* sfc_howto.html in Resources */,
+				14EEA9C11BF420ED001F8097 /* UMSShareListController.xib in Resources */,
 				143A30651BF3474900DEC134 /* coupon_help.html in Resources */,
 				143A306C1BF3474900DEC134 /* helpGroupBuy.html in Resources */,
+				14EEA9BB1BF420ED001F8097 /* UMSCommentInputController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -802,9 +913,10 @@
 				140EB6CA1BEF997B00E61A81 /* ViewController.m in Sources */,
 				14EA8BA11BF076D700DD72F8 /* EVATabBarButton.m in Sources */,
 				14822AC01BF2E2D500EEEDF8 /* EVAProduct.m in Sources */,
-				14EA8BA41BF08FA200DD72F8 /* HallViewController.m in Sources */,
 				14EA8BD81BF0FE5400DD72F8 /* ArrowItem.m in Sources */,
+				14EEA9E41BF4280C001F8097 /* EVALoginViewController.m in Sources */,
 				14822AC51BF2E34B00EEEDF8 /* EVAProductCell.m in Sources */,
+				14EEA9E31BF4280C001F8097 /* HallViewController.m in Sources */,
 				14EA8BCF1BF0EFFA00DD72F8 /* EVASettingItem.m in Sources */,
 				14EA8BA71BF0930C00DD72F8 /* EVANavigationController.m in Sources */,
 				143A30421BF337FB00DEC134 /* HelpViewController.m in Sources */,
@@ -814,9 +926,9 @@
 				140EB6D41BEF9AC900E61A81 /* EVATabBar.m in Sources */,
 				14822AD01BF2EE0600EEEDF8 /* BaseViewController.m in Sources */,
 				140EB6C91BEF997B00E61A81 /* AppDelegate.m in Sources */,
+				14EEA9E21BF4280C001F8097 /* EVATitleButton.m in Sources */,
 				14EA8BD51BF0FA0800DD72F8 /* EVASettingTableViewCell.m in Sources */,
 				14822AB81BF2E15200EEEDF8 /* MBProgressHUD.m in Sources */,
-				14EA8BC51BF0D55E00DD72F8 /* EVALoginViewController.m in Sources */,
 				143A303F1BF336B500DEC134 /* EVAHelp.m in Sources */,
 				14822AD41BF2F28600EEEDF8 /* PushNoticeController.m in Sources */,
 				14822AD71BF314BB00EEEDF8 /* ScoreNoticeViewController.m in Sources */,
@@ -827,7 +939,6 @@
 				143A308C1BF3644C00DEC134 /* AboutHeaderView.m in Sources */,
 				14EA8BCC1BF0E92200DD72F8 /* EVASettingViewController.m in Sources */,
 				143A30841BF35D3B00DEC134 /* ShareViewController.m in Sources */,
-				14EA8BAA1BF09E7800DD72F8 /* EVATitleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,6 +959,15 @@
 				140EB69F1BEF87C600E61A81 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		14EEA99C1BF420ED001F8097 /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14EEA99D1BF420ED001F8097 /* en */,
+				14EEA9B61BF420ED001F8097 /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -938,8 +1058,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Lottery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lottery/Libs/UMSocial_Sdk_4.3",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = github.i8023eva.Lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -950,8 +1075,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Lottery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lottery/Libs/UMSocial_Sdk_4.3",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = github.i8023eva.Lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

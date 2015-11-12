@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  设置初始页面
+ */
+
 @class EVASettingItem;
 @interface EVASettingTableViewCell : UITableViewCell
 

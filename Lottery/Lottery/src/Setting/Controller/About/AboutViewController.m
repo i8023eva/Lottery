@@ -13,10 +13,17 @@
 #import "AboutHeaderView.h"
 
 @interface AboutViewController ()
-
+@property (nonatomic, strong) UIWebView *webView;
 @end
 
 @implementation AboutViewController
+
+-(UIWebView *)webView {
+    if (_webView == nil) {
+        _webView = [[UIWebView alloc]initWithFrame:CGRectZero];
+    }
+    return _webView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,10 +38,23 @@
 {
     // 0组
     ArrowItem *score = [ArrowItem itemWithIcon:nil title:@"评分支持" destVcClass:nil];
-    
-    
+    /**
+     *  appStore 评分
+     */
+    score.block = ^{
+        NSString *appID = @"";
+        NSString *str = [NSString stringWithFormat:@"itms-apps://itunes.apple.com/cn/app/id%@?mt=8", appID];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
+    };
+
     EVASettingItem *tel = [ArrowItem itemWithIcon:nil title:@"客服电话"];
     tel.subTitle = @"020-83568090";
+    /**
+     *  打电话
+     */
+    tel.block = ^{
+        [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"tel://10010"]]];
+    };
     
     EVAGroup *group0 = [[EVAGroup alloc] init];
     group0.items = @[score,tel];
